@@ -21,6 +21,8 @@
 		F93F055D1992B6F500CB66D8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F93F053F1992B6F500CB66D8 /* UIKit.framework */; };
 		F93F05651992B6F500CB66D8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F93F05631992B6F500CB66D8 /* InfoPlist.strings */; };
 		F93F05671992B6F500CB66D8 /* ZaHunterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F93F05661992B6F500CB66D8 /* ZaHunterTests.m */; };
+		F93F05741992C08E00CB66D8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F93F05731992C08E00CB66D8 /* CoreLocation.framework */; };
+		F93F0577199314CA00CB66D8 /* Pizzaria.m in Sources */ = {isa = PBXBuildFile; fileRef = F93F0576199314CA00CB66D8 /* Pizzaria.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		F93F05621992B6F500CB66D8 /* ZaHunterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZaHunterTests-Info.plist"; sourceTree = "<group>"; };
 		F93F05641992B6F500CB66D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F93F05661992B6F500CB66D8 /* ZaHunterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZaHunterTests.m; sourceTree = "<group>"; };
+		F93F05731992C08E00CB66D8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F93F0575199314CA00CB66D8 /* Pizzaria.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pizzaria.h; sourceTree = "<group>"; };
+		F93F0576199314CA00CB66D8 /* Pizzaria.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pizzaria.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F93F05741992C08E00CB66D8 /* CoreLocation.framework in Frameworks */,
 				F93F053E1992B6F500CB66D8 /* CoreGraphics.framework in Frameworks */,
 				F93F05401992B6F500CB66D8 /* UIKit.framework in Frameworks */,
 				F93F053C1992B6F500CB66D8 /* Foundation.framework in Frameworks */,
@@ -101,6 +107,7 @@
 		F93F053A1992B6F500CB66D8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F93F05731992C08E00CB66D8 /* CoreLocation.framework */,
 				F93F053B1992B6F500CB66D8 /* Foundation.framework */,
 				F93F053D1992B6F500CB66D8 /* CoreGraphics.framework */,
 				F93F053F1992B6F500CB66D8 /* UIKit.framework */,
@@ -119,6 +126,8 @@
 				F93F05511992B6F500CB66D8 /* ViewController.m */,
 				F93F05531992B6F500CB66D8 /* Images.xcassets */,
 				F93F05421992B6F500CB66D8 /* Supporting Files */,
+				F93F0575199314CA00CB66D8 /* Pizzaria.h */,
+				F93F0576199314CA00CB66D8 /* Pizzaria.m */,
 			);
 			path = ZaHunter;
 			sourceTree = "<group>";
@@ -252,6 +261,7 @@
 				F93F05521992B6F500CB66D8 /* ViewController.m in Sources */,
 				F93F054C1992B6F500CB66D8 /* AppDelegate.m in Sources */,
 				F93F05481992B6F500CB66D8 /* main.m in Sources */,
+				F93F0577199314CA00CB66D8 /* Pizzaria.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
