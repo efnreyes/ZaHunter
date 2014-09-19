@@ -1,3 +1,9 @@
+CLLocationManager
+=================
+
+The thing that sets the iPhone apart from your typical desktop website, is the ability to access the user's real-time location. The CLLocationManager class defines the interface for configuring the delivery of location- and heading-related events to your application. You use an instance of this class to establish the parameters that determine when location and heading events should be delivered and to start and stop the actual delivery of those events.
+
+
 ZaHunter
 ========
 
@@ -38,3 +44,46 @@ As a user, I want to see all four pizza joints on a map with my location
     Use a UITabBarController so the user can switch between the map and the list
     Google a “piece of pizza icon” and use it for each restaurant on the map
 
+Stretches
+=========
+
+
+As a user, I want to get directions from my current location to each pizza joint
+2 points
+
+    Add a disclosure button to each pin’s callout and make it segue a new scene with a map
+    Show the directions on the map using an MKOverlay
+
+
+
+As a user, I want to delete pizza joints and have new ones added to the list
+2 points
+
+    You should always have four pizza joints available
+    You can choose how you delete the pizza joints
+
+
+
+As a user, I want to know if I should get drive or walk to each joint
+2 points
+
+    Add a segmentedControl to your navigationBar on the left side
+    Label the sections, walk and drive
+    When the user selects each segment change the table Footer to show walking time versus driving time
+        Did You Know? the taxi company that the user will use is called “Ryan’s Strike Machine”
+
+
+
+As a user, I want to see a rating for each pizza joint
+2 points
+
+    Display the rating in the TableView
+    In the MapView, vary the coloration of the pizza slice from red to green based on the rating
+        hint: you can find solutions for tinting UIImages on GitHub
+
+
+
+As a user, I want to have the star snap elastically around its anchor point when the phone is shaken about
+3 points
+
+(*hint UIDynamics, CMMotionManager)
